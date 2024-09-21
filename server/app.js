@@ -10,7 +10,7 @@ app.use("/api/user", router);
 app.use("/api/blog", blogRouter);
 mongoose
   .connect(
-    "mongodb+srv://mk1201:manoj7988@cluster0.zq8mkxe.mongodb.net/test"
+    "mongodb+srv://your_user_name:your_password@cluster0.zq8mkxe.mongodb.net/test"
   )
   .then(() => app.listen(5000))
   .then(() =>
